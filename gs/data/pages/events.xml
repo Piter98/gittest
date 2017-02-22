@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><title><![CDATA[Wydarzenia]]></title><url><![CDATA[events]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Wydarzenia]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:18px;&quot;&gt;Z życia klasy.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:16px;&quot;&gt;Bieżące:&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;Początek roku szkolnego 2016/2017&lt;/span&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;Studniówka&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:16px;&quot;&gt;Planowane:&lt;/span&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Rekolekcje 2017&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;span style=&quot;font-size:14px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[stronaa]]></author><pubDate>Wed, 15 Feb 2017 14:02:00 +0100</pubDate><lastUpdate>Tue, 21 Feb 2017 13:07:15 +0100</lastUpdate><menuOrder><![CDATA[2]]></menuOrder></item>

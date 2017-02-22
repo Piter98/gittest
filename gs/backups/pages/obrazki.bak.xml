@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><title><![CDATA[Obrazki]]></title><url><![CDATA[obrazki]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Obrazy]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent>events</parent><content><![CDATA[&lt;p&gt;Tutaj będą dodawane obrazki.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;(% gallery name=obrazki %)&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[stronaa]]></author><pubDate>Tue, 21 Feb 2017 11:57:00 +0100</pubDate><lastUpdate>Tue, 21 Feb 2017 12:51:16 +0100</lastUpdate><menuOrder><![CDATA[1]]></menuOrder></item>

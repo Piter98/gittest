@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><title><![CDATA[Serwer WWW]]></title><url><![CDATA[serwer-www]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Serwer WWW]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;h2&gt;Instalacja serwera&lt;/h2&gt;
+
+&lt;p&gt;Omówiene instalacji serwera WWW, niezbędnego do testowania naszego kodu.&lt;/p&gt;
+
+&lt;p&gt;Szczegóły dostępne są &lt;a href=&quot;http://linetc.readthedocs.io/pl/latest/web/lamp.html#lwamp&quot;&gt;tutaj&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/~kl3ag2/gs/data/uploads/obrazki/obr.png&quot; style=&quot;width: 383px; height: 383px;&quot; /&gt;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[stronaa]]></author><pubDate>Wed, 15 Feb 2017 14:02:00 +0100</pubDate><lastUpdate>Wed, 15 Feb 2017 14:17:02 +0100</lastUpdate><menuOrder><![CDATA[1]]></menuOrder></item>

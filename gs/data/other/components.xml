@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel><item><title><![CDATA[Sidebar]]></title><slug>sidebar</slug><value><![CDATA[&lt;h2&gt;Menu&lt;/h2&gt;
+&lt;ul&gt; 
+&lt;span style=&quot;font-size:16px;&quot;&gt;&lt;strong&gt;Warto odwiedzić&lt;/strong&gt;&lt;/span&gt;
+&lt;li&gt;&lt;a href=&quot;http://lo1.sandomierz.pl/&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;strong&gt;I LO CG S-rz&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;li&gt;&lt;a href=&quot;http://osworld.pl/&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;strong&gt;OsWorld&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;/ul&gt;
+]]></value></item><item><title><![CDATA[Tagline]]></title><slug>tagline</slug><value><![CDATA[Just Another GetSimple Website]]></value></item></channel>

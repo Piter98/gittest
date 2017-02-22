@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><title><![CDATA[Polecamy]]></title><url><![CDATA[polecamy]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[Polecamy]]></menu><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;h2&gt;&lt;span style=&quot;font-size:16px;&quot;&gt;Warto odwiedzić ponizsze serwisy.&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;1. &lt;a href=&quot;http://lo1.sandomierz.pl&quot;&gt;I LO Collegium Gostominaum w Sandomierzu&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;Strona zawiera informacje o historii szkoły, wychowankach, aktualnej kadrze i bieżących działaniach edukacyjno-kulturalnych.&lt;/blockquote&gt;
+
+&lt;p&gt;(% gallery name=lo %)&lt;/p&gt;
+
+&lt;p&gt;2. Wolne lektury&lt;a href=&quot;http://wolnelektury.pl&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://localhost/~kl3ag2/gs/data/uploads/obrazki2/wolne-lektury.png&quot; style=&quot;width: 173px; height: 94px;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+]]></content><private><![CDATA[]]></private><author><![CDATA[stronaa]]></author><pubDate>Wed, 15 Feb 2017 14:20:00 +0100</pubDate><lastUpdate>Tue, 21 Feb 2017 13:23:25 +0100</lastUpdate><menuOrder><![CDATA[3]]></menuOrder></item>
