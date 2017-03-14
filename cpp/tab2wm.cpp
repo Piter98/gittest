@@ -42,9 +42,10 @@ int tab2W()
         {
         for (j=0; j<k; j++)
             {
-            tab[i][j] = rand()%100 +1;
+            tab[i][j] = (i+1)*(j+1);
             cout << setw(4) << tab[i][j];
             }
+            cout << "\n";
         }
 
     for (i=0; i<w; i++)
