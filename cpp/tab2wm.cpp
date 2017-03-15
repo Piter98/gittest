@@ -1,5 +1,5 @@
 /*
- * tab2w.cpp
+ * tab2wm.cpp
  *
  * Copyright 2017 user <user@lap79>
  *
