@@ -18,7 +18,11 @@ def main(args):
             operand = ""
         elif znak in ('*', '-', '/','+','%'):
             a = str(stos.pop())
-            b = str(stos.pop())
+            if len(stos) != 0:
+                b = str(stos.pop())
+            else:
+                print "Błędny zapis"
+                sys.exit()
             stos.append(eval(b+znak+a))
 
     print "Wynik: ", stos.pop()
