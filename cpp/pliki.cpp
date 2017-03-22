@@ -5,9 +5,9 @@
  *
  */
 
-
 #include <iostream>
 #include <fstream>
+#include <string>
 
 using namespace std;
 #define MAX_NAZWA 100
@@ -32,6 +32,43 @@ void zapisz_znaki(char *plik)
     cout <<endl;
 }
 
+void zapisz_linie(char *plik)
+{
+    ofstream f;
+    string linia;
+    f.open(plik, ios::app);
+    do
+    {
+        getline(cin, linia);
+        f << linia << "\n";
+    }
+    while(linia.length() > 1);
+
+    f.close();
+    cout <<endl;
+}
+
+
+void czytaj_linie(char *plik)
+{
+    ifstream f;
+    string linia;
+    f.open(plik);
+    if (f.is_open())
+    {
+        while(getline(f,linia))
+        {
+            cout << linia << endl;
+        }
+        f.close();
+    }
+    else
+        cout << "Brak pliku!";
+
+    cout <<endl;
+}
+
+
 int czytaj_znaki(char *plik)
 {
     ifstream f;
@@ -55,9 +92,10 @@ int main(int argc, char **argv)
     cout << "Podaj nazwę pliku: ";
     cin.getline(nazwa, MAX_NAZWA);
 
-    zapisz_znaki(nazwa);
+    //zapisz_znaki(nazwa);
+    zapisz_linie(nazwa);
     cout << "Ilość znaków: " << czytaj_znaki(nazwa)<<endl;
-
+    czytaj_linie(nazwa);
 	return 0;
 }
 
