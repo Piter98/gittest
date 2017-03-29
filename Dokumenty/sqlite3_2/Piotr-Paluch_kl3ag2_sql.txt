@@ -1,0 +1,25 @@
+3a.
+select idklasy from tbklasy where klasa='1A';
+select imie, nazwisko from tbuczniowie, tbklasy where tbuczniowie.klasaid=tbklasy.idklasy and klasaid = 7;
+
+3b.
+select MAX(EgzHum) from tbuczniowie;
+
+3c.
+select idklasy from tbklasy where klasa='1A';
+select AVG(EgzMat) from tbUczniowie, tbKlasy where tbuczniowie.klasaid=tbklasy.idklasy and klasaid = 7;
+
+3d.
+select ocena from tboceny, tbuczniowie where tboceny.uczenid=tbuczniowie.iducznia and imie = 'Dorota' and nazwisko = 'Nowak';
+
+3e.
+select AVG(ocena) from tboceny,tbprzedmioty where tboceny.przedmiotid=tbprzedmioty.idprzedmiotu and datad>='2012-10-01' and datad<='2012-10-31' and przedmiot='fizyka';
+
+4a.
+update tbuczniowie SET EgzJez=35 where iducznia= (select iducznia from tbuczniowie where imie='Paulina' and nazwisko = 'Dziedzic');
+
+4b.
+select idoceny from tboceny,tbuczniowie,tbprzedmioty where tboceny.uczenid=tbuczniowie.iducznia and tboceny.przedmiotid=tbprzedmioty.idprzedmiotu and imie='Paulina' and nazwisko = 'Dziedzic' and ocena=1 and przedmiot='niemiecki';
+
+delete from tboceny where idoceny=643;
+

@@ -1,0 +1,22 @@
+<!-- quiz2pw/templates/quiz.html -->
+{% extends "szkielet.html" %}
+{% block tytul %}Dodawanie{% endblock%}
+{% block h1 %}Quiz 2 &#8211; dodawanie{% endblock%}
+{% block tresc %}
+    <p class="fb">
+        Dodaj pytanie:
+    </p>
+    <!-- formularz z dodawaniem -->
+    <form method="POST" action="{{ url_for('dodaj') }}">
+        {{ form.csrf_token }}
+        {{ form.pytanie.label }}<br>
+        {{ form.pytanie }}<br>
+        <br>
+        <label>Odpowiedzi:</label><br>
+        {{ radio[0] }}{{ form.odp0 }}<br>
+        {{ radio[1] }}{{ form.odp1 }}<br>
+        {{ radio[2] }}{{ form.odp2 }}<br>
+
+        <button type="submit">Zapisz</button>
+    </form>
+{% endblock %}

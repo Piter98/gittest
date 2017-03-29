@@ -1,0 +1,5 @@
+"IDpracownika";"kontakt";"uwagi"
+5;"644-23-45";"do siostry"
+5;"822-65-76";"domowy"
+6;"687-77-87";"domowy"
+8;"735-92-45";"do rodziców"

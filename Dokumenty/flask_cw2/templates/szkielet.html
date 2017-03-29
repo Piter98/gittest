@@ -1,0 +1,26 @@
+<!-- todo/templates/szkielet.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- nazwa aplikacji pobrana z ustawień -->
+    <title>{% block tytul %}{{ config.TYTUL }}{% endblock %}</title>
+    <!-- ładujemy arkusz CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>{% block naglowek %}{{ config.TYTUL }}{% endblock %}</h1>
+
+    <!-- Komunikaty dla użytkownika -->
+    <div id="komunikaty">
+       <ul>
+        {% for message in get_flashed_messages() %}
+            <li><b>{{ message }}</b></li>
+        {% endfor %}
+        </ul>
+    </div>
+
+    {% block tresc %}
+    {% endblock %}
+
+</body>
+</html>

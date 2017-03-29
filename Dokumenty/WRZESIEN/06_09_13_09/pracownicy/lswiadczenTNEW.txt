@@ -1,0 +1,7 @@
+1          badania okresowe              25,00 z³             
+2          premia okolicznoœciowa        300,00 z³            
+3          bon towarowy                  50,00 z³             
+4          paczka dla dzieci             30,00 z³             
+5          wyprawka dla noworodka        200,00 z³            
+6          badania profilaktyczne        50,00 z³             
+7          dodatek wypoczynkowy          350,00 z³            
