@@ -1,0 +1,8 @@
+"imiê";"nazwisko";"data";"miejscowoœæ";"ulica";"kod";"miasto"
+"Jan";"Zamojski";1973-3-13 00:00:00;"Kielce";"Batorego 2/3";"34400";"Tarnobrzeg"
+"Andrzej";"Zamojski";1966-3-19 00:00:00;"Kielce";"Batorego 2/3";"34400";"Tarnobrzeg"
+"Piotr";"Zamojski";1980-12-9 00:00:00;"Otwock";"Komuny 9/32";"27600";"sandomierz"
+"Edward";"Kowalski";1973-12-6 00:00:00;"Radom";"Kielecka 23a";"27600";"sandomierz"
+"Janusz";"Sarna";1985-3-4 00:00:00;"Stalowa Wola";"Krawiecka 12/9";"34400";"tarnobrzeg"
+"Jerzy";"Makowski";1978-7-1 00:00:00;"Sandomierz";"Bosmañska 5";"27600";"sandomierz"
+"Pawe³";"Kowalski";1965-2-24 00:00:00;"Opatów";"Mickiewicza 37b";"27600";"sandomierz"

@@ -1,0 +1,28 @@
+<!-- quiz2pw/templates/quiz.html -->
+{% extends "szkielet.html" %}
+{% block tytul %}Edycja{% endblock%}
+{% block h1 %}Quiz 2 &#8211; edycja{% endblock%}
+{% block tresc %}
+    <p class="fb">
+        Wybierz pytanie:
+    </p>
+
+    <ol>
+    {% for p in pytania: %}
+        <li>{{ p.pytanie }} <a href="{{ url_for('edytuj', pid=p.id) }}">Edytuj</a> <a href="{{ url_for('usun', pid=p.id) }}">Usuń</a></li>
+    {% endfor %}
+    </ol>
+    <!-- formularz z dodawaniem -->
+    <form method="POST" action="{{ url_for('edytuj', pid=0) }}">
+        {{ form.csrf_token }}
+        {{ form.pytanie.label }}<br>
+        {{ form.pytanie }}<br>
+        <br>
+        <label>Odpowiedzi:</label><br>
+        {{ radio[0] }}{{ form.odp0 }}<br>
+        {{ radio[1] }}{{ form.odp1 }}<br>
+        {{ radio[2] }}{{ form.odp2 }}<br>
+        {{ form.pid }}
+        <button type="submit">Zapisz</button>
+    </form>
+{% endblock %}

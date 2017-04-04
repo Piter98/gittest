@@ -1,0 +1,25 @@
+<!-- todo/templates/zadania.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- nazwa aplikacji pobrana z ustawień -->
+    <title>{{ config.TYTUL }}</title>
+</head>
+<body>
+    <h1>{{ config.TYTUL }}:</h1>
+
+    <!--
+    TODO: Poniżej wstaw kod wyświetlający listę zadań
+    jako elementy listy ol
+    -->
+
+    <ol>
+        {% for z in zadania: %}
+        <li>{{ z.tresc }} {{z.datad}}
+
+        </li>
+        {% endfor %}
+    </ol>
+
+</body>
+</html>
